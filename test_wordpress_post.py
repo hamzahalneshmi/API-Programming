@@ -31,7 +31,7 @@ BASE_URL = "https://toddbooth.com/wp-json/wp/v2"
 
 # Define the post data as a dictionary
 post_data = {
-    "title": "Just A Random Post Title",
+    "title": "Just A Random Post Title:Hamzah",# __________________________________________________________
     "content": "This is the content of the new post.",
     "status": "publish"
 }

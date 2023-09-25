@@ -13,7 +13,7 @@ BASE_URL="$PROTOCOL://toddbooth.com/wp-json/wp/v2"
 response=$(curl -X GET -u "${WP_USERNAME}:${WP_KEY}" ${BASE_URL}/users)
 
 # Check if the following user name exists
-TEST_NAME="d7001dbogpat4"
+TEST_NAME="d7001dhamaln3" #There is a problem here __________________________________________________________
 
 echo "checking for $TEST_NAME"
 

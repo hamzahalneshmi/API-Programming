@@ -5,12 +5,12 @@ check_wp_site() {
     echo -n "Checking $domain... "
     
     # Check if the domain is listening on port 80 (HTTP)
-    nc -z -w 1 $domain 80
+    ncat -z -w 1 $domain 80 # __________________________________________________________
     http_result=$?
 
     if [ $http_result -eq 0 ]; then
         echo "Port 80 is listening"
-        exit 1
+        exit 1 #There is a problem here, it quites the whole program  __________________________________________________________
     else
         echo "Port 80 is not listening"
         exit 1
